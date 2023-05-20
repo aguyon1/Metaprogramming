@@ -69,5 +69,5 @@ int main(void)
 
 	std::cout << "Factorial 12 : " << Factorial<N>::value << std::endl;
 	std::cout << "Fibonnaci 12 : " << Fibonacci<N>::curr << std::endl;
-	std::cout << "Sum of square [0, 12] : " << SumSquare<N>::value << std::endl;
+	std::cout << "Sum of square [0...12] : " << SumSquare<N>::value << std::endl;
 }
